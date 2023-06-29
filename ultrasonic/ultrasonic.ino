@@ -1,6 +1,6 @@
-const int led = 13;
-const int TRIG_PIN = 10;
-const int ECHO_PIN = 11;
+const int led = 11;
+const int TRIG_PIN = 12;
+const int ECHO_PIN = 13;
  
 void setup() {
   // initialize serial communication:
@@ -43,5 +43,5 @@ digitalWrite(led,HIGH);
  else { 
   digitalWrite(led,HIGH);
  }
-  delay(10);
+  delay(1000);
 }
